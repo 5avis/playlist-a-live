@@ -5,7 +5,7 @@ import csv
 CLIENT_ID     = "f378884933fd40419ed4ceb4183187fa"
 CLIENT_SECRET = "0fe835117c40467f87b7fa6f168d56dc"
 REDIRECT_URI  = "http://127.0.0.1:8888/callback"
-SCOPE = "playlist-modify-public"
+SCOPE         = "playlist-modify-public"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     client_id=CLIENT_ID,
@@ -18,9 +18,23 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 user = sp.current_user()
 print(f"✅ Connected as: {user['display_name']}\n")
 
-print("🎵 Searching for trending songs...\n")
+print("🎵 Searching for best songs from multiple sources...\n")
 
-search_queries = ["pop 2026", "hits 2026", "trending 2026", "top songs 2026", "popular 2026"]
+# Wide variety of search queries covering all genres and regions
+search_queries = [
+    "top hits 2026",
+    "best songs 2026",
+    "trending music 2026",
+    "viral songs 2026",
+    "pop hits 2026",
+    "hip hop 2026",
+    "indie hits 2026",
+    "tamil hits 2026",
+    "bollywood hits 2026",
+    "global hits 2026",
+    "new music 2026",
+    "chart hits 2026",
+]
 
 tracks = []
 seen_ids = set()
@@ -40,10 +54,17 @@ for query in search_queries:
             }
             tracks.append(track_info)
             print(f"{len(tracks)}. {track_info['track_name']} — {track_info['artist']} (Popularity: {popularity})")
-    if len(tracks) >= 50:
+
+    if len(tracks) >= 100:
         break
 
+# Sort by popularity — best songs rise to top
 tracks = sorted(tracks, key=lambda x: x['popularity'], reverse=True)
+
+# Keep top 50 only
+tracks = tracks[:50]
+
+# Re-rank
 for i, track in enumerate(tracks):
     track['rank'] = i + 1
 
@@ -55,3 +76,16 @@ with open('trending_tracks.csv', 'w', newline='', encoding='utf-8') as f:
     writer.writerows(tracks)
 
 print("✅ Saved to trending_tracks.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
