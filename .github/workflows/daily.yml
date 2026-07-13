@@ -2,8 +2,8 @@ name: PLAYLIVE Daily Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight UTC
-  workflow_dispatch:       # Allows manual trigger from GitHub
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   run-pipeline:
@@ -40,3 +40,10 @@ jobs:
       - name: Run PLAYLIVE pipeline
         run: python run_pipeline.py
 
+      - name: Save CSVs back to repo
+        run: |
+          git config --global user.email "273328604+5avis@users.noreply.github.com"
+          git config --global user.name "5avis"
+          git add activity_log.csv decisions.csv trending_tracks.csv
+          git diff --staged --quiet || git commit -m "Daily update $(date +'%Y-%m-%d')"
+          git push
