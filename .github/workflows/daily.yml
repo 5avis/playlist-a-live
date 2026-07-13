@@ -1,0 +1,42 @@
+name: PLAYLIVE Daily Pipeline
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:       # Allows manual trigger from GitHub
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install spotipy pandas scikit-learn matplotlib
+
+      - name: Create .cache file from secrets
+        run: |
+          echo '{
+            "access_token": "",
+            "token_type": "Bearer",
+            "expires_in": 3600,
+            "refresh_token": "${{ secrets.SPOTIFY_REFRESH_TOKEN }}",
+            "scope": "playlist-modify-public",
+            "expires_at": 0
+          }' > .cache
+
+      - name: Update credentials in scripts
+        run: |
+          sed -i 's/YOUR_CLIENT_ID_HERE/${{ secrets.SPOTIFY_CLIENT_ID }}/g' fetch_trending.py decision.py update_playlist.py reauth.py
+          sed -i 's/YOUR_CLIENT_SECRET_HERE/${{ secrets.SPOTIFY_CLIENT_SECRET }}/g' fetch_trending.py decision.py update_playlist.py reauth.py
+
+      - name: Run PLAYLIVE pipeline
+        run: python run_pipeline.py
+
