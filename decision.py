@@ -55,7 +55,7 @@ print(f"✅ Best cluster selected: Cluster {best_cluster}\n")
 best_cluster_tracks = trending_df[trending_df['cluster'] == best_cluster]
 to_add = best_cluster_tracks[
     ~best_cluster_tracks['track_id'].isin(current_ids)
-].head(10)
+].head(50)
 
 to_remove = [t for t in current_tracks if t['track_id'] not in trending_ids]
 

@@ -1,8 +1,8 @@
 rank,track_id,track_name,artist,popularity,rank_score,popularity_tier,duration_sec,explicit,trend_score
 1,4ROldgaRDDAI2VP8rWkjat,Udi Udi,Aneesh,0,0.98,0,164.8,0,0.392
 2,0RsH8g8DxdYZgdGcod5I36,Bairan,Banjaare,0,0.96,0,255.2,0,0.384
-3,5bcbIQK7YyRnIqdnaGvG9P,Pop 2026,Flip My Beatz,0,0.94,0,176.2,0,0.376
-4,5haZbtveqI9v1svcc5IDx6,Inaam (Ft. Badshah),Jasleen Royal,0,0.92,0,176.0,0,0.368
+3,5haZbtveqI9v1svcc5IDx6,Inaam (Ft. Badshah),Jasleen Royal,0,0.94,0,176.2,0,0.376
+4,5bcbIQK7YyRnIqdnaGvG9P,Pop 2026,Flip My Beatz,0,0.92,0,176.0,0,0.368
 5,34bZqssAITx04EAzcffySn,Tujhko - From “Cocktail 2”,Pritam,0,0.9,0,218.5,0,0.36
 6,67AfKScwWNp5mF33Ovewfz,Ordinary,Alex Warren,0,0.88,0,237.3,0,0.352
 7,3oP9Ou32lbhhXsQNJSnX2I,2026,Jay Shiffa,0,0.86,0,185.6,0,0.344
@@ -11,8 +11,8 @@ rank,track_id,track_name,artist,popularity,rank_score,popularity_tier,duration_s
 10,3NVGRcDi5K0EHdsVADghkl,Cha Cha Cha,Bruno Mars,0,0.8,0,212.9,0,0.32
 11,6aQIGqAo9PxRKjUkhYtR6R,"Hayyoda (From ""Jawan"")",Anirudh Ravichander,0,0.78,0,199.8,0,0.312
 12,3dHP1GUSR19PB1baWz37LN,"Golden Sparrow (From ""Nilavuku En Mel Ennadi Kobam"")",G. V. Prakash,0,0.76,0,202.2,0,0.304
-13,7BhYjmYbfR2W4FC357zeJU,"Uyi Amma - From ""Azaad""",Amit Trivedi,0,0.74,0,178.5,0,0.296
-14,54JCCRWZUNByYLnfITnL37,Apna Bana Le,Sachin-Jigar,0,0.72,0,161.8,0,0.288
+13,54JCCRWZUNByYLnfITnL37,Apna Bana Le,Sachin-Jigar,0,0.74,0,178.5,0,0.296
+14,7BhYjmYbfR2W4FC357zeJU,"Uyi Amma - From ""Azaad""",Amit Trivedi,0,0.72,0,161.8,0,0.288
 15,5d2fvL0aONTkdfoeSlxNwv,Peddi Hits Back,A.R. Rahman,0,0.7,0,256.2,0,0.28
 16,3E2alxlOoe5EURfec217Uu,"Kissik (From ""Pushpa 2 The Rule"") [HINDI]",Lothika,0,0.68,0,189.8,0,0.272
 17,0XwrHnZKSO6zdiQp38HaNB,Kalank - Title Track,Pritam,0,0.66,0,207.4,0,0.264
@@ -21,10 +21,10 @@ rank,track_id,track_name,artist,popularity,rank_score,popularity_tier,duration_s
 20,170cP1sMwXlCE9JpISQoxt,"Kisi Disco Mein Jaaye (From ""Bade Miyan Chote Miyan"") - Jhankar",Viju Shah,0,0.6,0,249.6,0,0.24
 21,3GNlsHDf3OH7V3LgccGAFc,"Mutta Kalakki (From ""Youth"")",G. V. Prakash,0,0.58,0,168.1,0,0.232
 22,5thVzD79BxlDTYy0LfHzvu,Zaroor,Aparshakti Khurana,0,0.56,0,255.4,0,0.224
-23,0eLtIxPRNJfsmehITZ1qaJ,Sahiba,Aditya Rikhari,0,0.54,0,251.7,0,0.216
-24,5jCuQyeS4WP4ZYskYhfRlH,Ishq de Fanniyar - Female Version,Jyotica Tangri,0,0.52,0,228.4,0,0.208
-25,0plMFv6Zu4IKJmBy7FQnqU,Main Hi Kyu Ishq Zaahir Karun - Zaalima Trending Version,Arijit Singh,0,0.5,0,191.5,0,0.2
-26,6EzB9lIW27iSTd0c2V4t3K,"Oorum Blood - From ""Dude""",Sai Abhyankkar,0,0.48,0,232.2,0,0.192
+23,5jCuQyeS4WP4ZYskYhfRlH,Ishq de Fanniyar - Female Version,Jyotica Tangri,0,0.54,0,251.7,0,0.216
+24,0plMFv6Zu4IKJmBy7FQnqU,Main Hi Kyu Ishq Zaahir Karun - Zaalima Trending Version,Arijit Singh,0,0.52,0,228.4,0,0.208
+25,6EzB9lIW27iSTd0c2V4t3K,"Oorum Blood - From ""Dude""",Sai Abhyankkar,0,0.5,0,191.5,0,0.2
+26,2t1pEpxPz91KldW7C0FyZv,"Monica (From ""Coolie"") (Tamil)",Anirudh Ravichander,0,0.48,0,232.2,0,0.192
 27,0MTdYgTZ25sLCO6kVnDoje,"Aasa Kooda - From ""Think Indie""",Sai Abhyankkar,0,0.46,0,221.3,0,0.184
 28,3WdZQUQkrEs4K7pUaZryiL,Dil Na Jaaneya - Trending Version,AKASA,0,0.44,0,162.4,0,0.176
 29,0noOjw0DWxfC4PjpqdBXNN,Lae Dooba,Sunidhi Chauhan,0,0.42,0,210.3,0,0.168
