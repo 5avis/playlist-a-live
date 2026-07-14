@@ -1,50 +1,51 @@
 rank,track_id,track_name,artist,popularity,rank_score,popularity_tier,duration_sec,explicit,trend_score
-1,4ROldgaRDDAI2VP8rWkjat,Udi Udi,Aneesh,0,0.98,0,164.8,0,0.392
-2,0RsH8g8DxdYZgdGcod5I36,Bairan,Banjaare,0,0.96,0,255.2,0,0.384
-3,5haZbtveqI9v1svcc5IDx6,Inaam (Ft. Badshah),Jasleen Royal,0,0.94,0,176.2,0,0.376
-4,5bcbIQK7YyRnIqdnaGvG9P,Pop 2026,Flip My Beatz,0,0.92,0,176.0,0,0.368
-5,34bZqssAITx04EAzcffySn,Tujhko - From “Cocktail 2”,Pritam,0,0.9,0,218.5,0,0.36
-6,67AfKScwWNp5mF33Ovewfz,Ordinary,Alex Warren,0,0.88,0,237.3,0,0.352
-7,3oP9Ou32lbhhXsQNJSnX2I,2026,Jay Shiffa,0,0.86,0,185.6,0,0.344
-8,18ssuktwKYOO32VBAYgSEA,"Good Luck, Babe!",Chappell Roan,0,0.84,0,174.9,0,0.336
-9,01ncFETlV8Gd6gDg2Onwo2,The Subway,Chappell Roan,0,0.82,0,200.9,0,0.328
-10,3NVGRcDi5K0EHdsVADghkl,Cha Cha Cha,Bruno Mars,0,0.8,0,212.9,0,0.32
-11,6aQIGqAo9PxRKjUkhYtR6R,"Hayyoda (From ""Jawan"")",Anirudh Ravichander,0,0.78,0,199.8,0,0.312
-12,3dHP1GUSR19PB1baWz37LN,"Golden Sparrow (From ""Nilavuku En Mel Ennadi Kobam"")",G. V. Prakash,0,0.76,0,202.2,0,0.304
-13,54JCCRWZUNByYLnfITnL37,Apna Bana Le,Sachin-Jigar,0,0.74,0,178.5,0,0.296
-14,7BhYjmYbfR2W4FC357zeJU,"Uyi Amma - From ""Azaad""",Amit Trivedi,0,0.72,0,161.8,0,0.288
-15,5d2fvL0aONTkdfoeSlxNwv,Peddi Hits Back,A.R. Rahman,0,0.7,0,256.2,0,0.28
-16,3E2alxlOoe5EURfec217Uu,"Kissik (From ""Pushpa 2 The Rule"") [HINDI]",Lothika,0,0.68,0,189.8,0,0.272
-17,0XwrHnZKSO6zdiQp38HaNB,Kalank - Title Track,Pritam,0,0.66,0,207.4,0,0.264
-18,58GQgqvtPMomDWOe4opVmh,"Jiya Tui Chara - From ""Biye Bibhrat""",Ranajoy Bhattacharjee,0,0.64,0,169.9,0,0.256
-19,4fsBQ3trBRsga19INrgFSf,Shantabai,Sanjay Londhe,0,0.62,0,224.5,0,0.248
-20,170cP1sMwXlCE9JpISQoxt,"Kisi Disco Mein Jaaye (From ""Bade Miyan Chote Miyan"") - Jhankar",Viju Shah,0,0.6,0,249.6,0,0.24
-21,3GNlsHDf3OH7V3LgccGAFc,"Mutta Kalakki (From ""Youth"")",G. V. Prakash,0,0.58,0,168.1,0,0.232
-22,5thVzD79BxlDTYy0LfHzvu,Zaroor,Aparshakti Khurana,0,0.56,0,255.4,0,0.224
-23,5jCuQyeS4WP4ZYskYhfRlH,Ishq de Fanniyar - Female Version,Jyotica Tangri,0,0.54,0,251.7,0,0.216
-24,0plMFv6Zu4IKJmBy7FQnqU,Main Hi Kyu Ishq Zaahir Karun - Zaalima Trending Version,Arijit Singh,0,0.52,0,228.4,0,0.208
-25,6EzB9lIW27iSTd0c2V4t3K,"Oorum Blood - From ""Dude""",Sai Abhyankkar,0,0.5,0,191.5,0,0.2
-26,2t1pEpxPz91KldW7C0FyZv,"Monica (From ""Coolie"") (Tamil)",Anirudh Ravichander,0,0.48,0,232.2,0,0.192
-27,0MTdYgTZ25sLCO6kVnDoje,"Aasa Kooda - From ""Think Indie""",Sai Abhyankkar,0,0.46,0,221.3,0,0.184
-28,3WdZQUQkrEs4K7pUaZryiL,Dil Na Jaaneya - Trending Version,AKASA,0,0.44,0,162.4,0,0.176
-29,0noOjw0DWxfC4PjpqdBXNN,Lae Dooba,Sunidhi Chauhan,0,0.42,0,210.3,0,0.168
-30,5PUXKVVVQ74C3gl5vKy9Li,Heeriye (feat. Arijit Singh),Jasleen Royal,0,0.4,0,209.3,0,0.16
-31,23p1uP74XiVYCXjPP23Kz7,FA9LA,Flipperachi,0,0.38,0,151.4,0,0.152
-32,5nEmHo7MLWWfiE3LR6XP8S,Nazm Nazm,Arko,0,0.36,0,158.5,0,0.144
-33,1uCBFWAcZOJGAj1CFQHZDj,Daaku,Badshah,0,0.34,0,212.7,0,0.136
-34,4x8JsInrhf0yWYFRpF4vRz,Top Fella,Karan Aujla,0,0.32,0,208.2,0,0.128
-35,5SSZtFWdrmFV4MxtlRA13N,Saiyaara,Tanishk Bagchi,0,0.3,0,210.4,0,0.12
-36,2NMwPZAEe5w8ps7PsTzezh,Top Notch Sundri,Aniruddha Sastry,0,0.28,0,186.2,0,0.112
-37,0wbDgMuAoy7O7pL3a69uZx,Give It To Me,Timbaland,0,0.26,0,225.0,0,0.104
-38,2KJNLv7wty3DYz8hT0J1Up,Give It To Me,Timbaland,0,0.24,0,220.3,0,0.096
-39,4HVrK988UIJlziHmMHnwSt,Give It To Me,Timbaland,0,0.22,0,173.1,0,0.088
-40,6WzRpISELf3YglGAh7TXcG,Popular (with Playboi Carti & Madonna) - From The Idol Vol. 1 (Music from the HBO Original Series),The Weeknd,0,0.2,0,200.4,0,0.08
-41,65dt1vedDHPOCCPS3mVhtN,Sapphire (feat. Arijit Singh) - Remix,Ed Sheeran,0,0.18,0,191.9,0,0.072
-42,1EOcsoNIoZ7nvIfGVNDLlT,"Ayyappanum Koshiyum (From ""Adakachakko"")",Pridhviraj,0,0.16,0,220.3,0,0.064
-43,22EimU5vjrNYV9A3aIGqso,O Gujariya,Shefali Alvares,0,0.14,0,154.2,0,0.056
-44,2BBCFU0ZOiSicF3b1kcWUd,"Kannadi Kayalinoram (from ""Oruthee"")",P. Jayachandran,0,0.12,0,194.9,0,0.048
-45,6tElniAwnkaXFyqFwuSrw6,"Naran (Omal Kanmani) (from ""Naran"")",K. S. Chithra,0,0.1,0,179.9,0,0.04
-46,2SRv30X7NoYRZB62dX0UzH,Dj Waley Babu (feat. Aastha Gill),Badshah,0,0.08,0,247.7,0,0.032
-47,0rUN8ascPVT9iiLzC5ocPw,Abhi Toh Party Shuru Hui Hai,Badshah,0,0.06,0,188.7,0,0.024
-48,2uGx4DTfAO39YcsfN1kc4f,"Chembakapoo (from ""Rathinirvedam (Malayalam Film)"")",Sudeep Kumar,0,0.04,0,210.3,0,0.016
-49,0TXIw8r4KSKX8DtfkSp7zE,"Manikuyile (Duet) (from ""Valkannadi"")",K. J. Yesudas,0,0.02,0,157.4,0,0.008
+1,5BhCnMoTq4qI4vf37Ohlkm,Shape of You,Ed Sheeran,0,0.98,0,164.8,0,0.392
+2,4HTNf7HP0VCxrcxWtanJx7,Top Lesi Poddi,Sagar,0,0.96,0,255.2,0,0.384
+3,5nEmHo7MLWWfiE3LR6XP8S,Nazm Nazm,Arko,0,0.94,0,176.2,0,0.376
+4,2MCjV49hbv76CtqKmG0pFq,Dariya,Arko,0,0.92,0,176.0,0,0.368
+5,4x8JsInrhf0yWYFRpF4vRz,Top Fella,Karan Aujla,0,0.9,0,218.5,0,0.36
+6,0u4SME36stWEAC8qFjCH3h,Top G,Shubh,0,0.88,0,237.3,0,0.352
+7,0jEBcWtdEeEQ7mEtefzKIm,Jugni 2.0,Kanika Kapoor,0,0.86,0,185.6,0,0.344
+8,7EqulVHbWDM0SR2e2IFpDv,Follow Me,French Montana,0,0.84,0,174.9,0,0.336
+9,7y5UfeOj74bxxi5IAleT2S,44D,Bigflo & Oli,0,0.82,0,200.9,0,0.328
+10,60GKG0wbJXlwYLV6JwpNkO,BANE,Lucho RK,0,0.8,0,212.9,0,0.32
+11,0eLtIxPRNJfsmehITZ1qaJ,Sahiba,Aditya Rikhari,0,0.78,0,199.8,0,0.312
+12,5ZLkihi6DVsHwDL3B8ym1t,One Love,Shubh,0,0.76,0,202.2,0,0.304
+13,1D35BJlymlh6OLD75WupSF,"Saiyaara (From ""Saiyaara"")",Tanishk Bagchi,0,0.74,0,178.5,0,0.296
+14,7LpMG3AEaIJgs62HQhAa91,i'm so tired...,LAUV,0,0.72,0,161.8,0,0.288
+15,418zyTpUWKw4r5Gxoh9fu8,"O Mere Raja - From ""Johny Mera Naam""",Kishore Kumar,0,0.7,0,256.2,0,0.28
+16,2f4Uv7lXkWcYpJoLFxwaQY,"Pyar Mein Dil Pe Maar De Goli - From ""Mahaan""",Kishore Kumar,0,0.68,0,189.8,0,0.272
+17,3cawNLCNA4CNsKMlHxekVD,"Disco Station - From ""Haathkadi""",Asha Bhosle,0,0.66,0,207.4,0,0.264
+18,26yhiwi7pBUcRBbbs3kZ6q,Accident Ho Gaya (Alla Rakha) - From ''Coolie'',Asha Bhosle,0,0.64,0,169.9,0,0.256
+19,77eZIuMTB9HrQ86L4ljqEX,Baby Riddim,FAVE,0,0.62,0,224.5,0,0.248
+20,1WERhgO8sSoeGP4XVTiBoQ,KLATSCH DAS!,Jazeek,0,0.6,0,249.6,0,0.24
+21,4cVgfaHzVDu3srYfJEP0AN,"Raga of Revenge (From ""DC"")",Anirudh Ravichander,0,0.58,0,168.1,0,0.232
+22,6EzB9lIW27iSTd0c2V4t3K,"Oorum Blood - From ""Dude""",Sai Abhyankkar,0,0.56,0,255.4,0,0.224
+23,0plMFv6Zu4IKJmBy7FQnqU,Main Hi Kyu Ishq Zaahir Karun - Zaalima Trending Version,Arijit Singh,0,0.54,0,251.7,0,0.216
+24,5jCuQyeS4WP4ZYskYhfRlH,Ishq de Fanniyar - Female Version,Jyotica Tangri,0,0.52,0,228.4,0,0.208
+25,3WdZQUQkrEs4K7pUaZryiL,Dil Na Jaaneya - Trending Version,AKASA,0,0.5,0,191.5,0,0.2
+26,5J6av46lAHY6gAdAkbx6H1,Free My Mind - Acoustic Version,Deeboysolid,0,0.48,0,232.2,0,0.192
+27,4Qclz28102D0f8YyJFS3i5,Free My Mind - Sped Up Version,Deeboysolid,0,0.46,0,221.3,0,0.184
+28,2A4TPMbJQxxppjPEui035c,DON'T STOP,Josi,0,0.44,0,162.4,0,0.176
+29,2HI1eYwbbiJGqi0XaeByOI,Shaky,Sanju Rathod,0,0.42,0,210.3,0,0.168
+30,4ITtnvLQ6SOA8XhiqkLa24,Gulabi Sadi,Sanju Rathod,0,0.4,0,209.3,0,0.16
+31,6cd9eJFXIl72tDwLguJxSp,"Viral Vayyari ( From ""Junior"")",Devi Sri Prasad,0,0.38,0,151.4,0,0.152
+32,3A3oq3VMSboPPWBYTRq0nX,Dil Lagana Mana Tha,Krish Mondal,0,0.36,0,158.5,0,0.144
+33,4iiNfX9KBaXZQGFTHXI52o,Jis Pe Rakhe Tum Ne Kadam - Viral Version,Arijit Singh,0,0.34,0,212.7,0,0.136
+34,5gsi1bSTPDIiW6Pi5kFmiU,Sundari,Sanju Rathod,0,0.32,0,208.2,0,0.128
+35,4Ms6UdllDl1tJvs1BzkwQT,May 13 May 13 - Kalank Trending Viral Version,Pritam,0,0.3,0,210.4,0,0.12
+36,00PYMeyU91Xt0j9UwmEpoX,Bassthoven,Kyle Exum,0,0.28,0,186.2,0,0.112
+37,5aqZDBUDcgppoGB6paZz1Q,Bas Tumse Milne Ki Der Thi - Viral Vocals Only Version,Shwetha Somasundaran,0,0.26,0,225.0,0,0.104
+38,4Q0qVhFQa7j6jRKzo3HDmP,Sapphire,Ed Sheeran,0,0.24,0,220.3,0,0.096
+39,58GQgqvtPMomDWOe4opVmh,"Jiya Tui Chara - From ""Biye Bibhrat""",Ranajoy Bhattacharjee,0,0.22,0,173.1,0,0.088
+40,7wVMuMOZBHFV4fm98LyF0x,Shaayraana,Arijit Singh,0,0.2,0,200.4,0,0.08
+41,5WiqJphzpucGC0GuCF2XUM,"Dil Hi Toh Hai - From ""The Sky Is Pink""",Nikhil D'Souza,0,0.18,0,191.9,0,0.072
+42,7H2oWrrVGy2JvYZBEw1Kvo,"Tainu Khabar Nahi - From ""Munjya""",Sachin-Jigar,0,0.16,0,220.3,0,0.064
+43,1MwXt3iwGxamOUv6QNXIEg,POP,QUAKE World,0,0.14,0,154.2,0,0.056
+44,5uXge1cK24monr2woxAZ7F,P-POP CULTURE,Karan Aujla,0,0.12,0,194.9,0,0.048
+45,1yvSMyZn27M4wEslpSvB0D,So High,Doja Cat,0,0.1,0,179.9,0,0.04
+46,7C7vnAW3L8ahsOGsZKY6EP,KGB,ADÉLA,0,0.08,0,247.7,0,0.032
+47,4pibaSwz8vWyQQcFlDafFz,"Goindhamma (From ""Meesaya Murukku 2"")",Hiphop Tamizha,0,0.06,0,188.7,0,0.024
+48,6an0MY3T2cKqk8kzHsAMYq,"Pappali Pazhamey (From ""Meesaya Murukku 2"")",Hiphop Tamizha,0,0.04,0,210.3,0,0.016
+49,0xYYUicaDPp0VPyL0z7xzB,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,0,0.02,0,157.4,0,0.008
+50,5R1WyFcSEkDARtEx92oftS,Issey Kehte Hain Hip Hop,Yo Yo Honey Singh,0,0.0,0,204.7,0,0.0
