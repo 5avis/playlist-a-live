@@ -1,51 +1,51 @@
 rank,track_id,track_name,artist,popularity,rank_score,popularity_tier,duration_sec,explicit,trend_score
 1,xTvyyoF_LZY,Shape of You,Ed Sheeran,99,0.98,2,166.0,1,0.986
-2,GqWYJT-iMTw,Baby (feat. Ludacris),Justin Bieber,97,0.96,2,194.4,1,0.966
+2,rJ0D1GbDq1Q,Let Me Love You (feat. Justin Bieber),DJ Snake,97,0.96,2,194.4,1,0.966
 3,J7p4bzqLvCw,Blinding Lights,The Weeknd,96,0.94,2,194.4,1,0.952
 4,3_g2un5M350,Starboy (feat. Daft Punk),The Weeknd,96,0.92,2,166.0,1,0.944
-5,cfhwSpSDA9c,Unstoppable,Sia,95,0.9,2,166.0,1,0.93
+5,FrsOnNxIrg8,God's Plan,Drake,95,0.9,2,166.0,1,0.93
 6,aWkPBCF8rFU,Beauty And A Beat (feat. Nicki Minaj),Justin Bieber,94,0.88,2,166.0,1,0.916
 7,BkSSOGNeWTM,Flowers,Miley Cyrus,94,0.86,2,213.9,1,0.908
-8,ge4M2dVBgTw,Saiyaara (Movie: Saiyaara),Faheem Abdullah,93,0.84,2,213.9,1,0.894
-9,kIft-LUHHVA,Espresso,Sabrina Carpenter,93,0.82,2,166.3,1,0.886
-10,n9qQiuwBywU,Humnava Mere,Jubin Nautiyal,93,0.8,2,257.7,1,0.878
-11,RG-D4bcg54s,Lush Life,Zara Larsson,93,0.78,2,255.6,1,0.87
-12,Gayw5AQvWcQ,"Shararat (From ""Dhurandhar"")",Shashwat Sachdev,92,0.76,2,255.6,1,0.856
-13,YALvuUpY_b0,"Apna Bana Le (From ""Bhediya"")",Arijit Singh,92,0.74,2,246.6,1,0.848
-14,eXkHvT--DBU,Zaalima,Arijit Singh,92,0.72,2,228.2,1,0.84
-15,i1o1p_DD6TU,"Gehra Hua (From ""Dhurandhar"")",Shashwat Sachdev,91,0.7,2,228.2,1,0.826
-16,kbwuCugRFB0,Shaky,Sanju Rathod,91,0.68,2,177.1,1,0.818
-17,f419vqAt8PU,"Ishq (From ""Lost;Found"")",Faheem Abdullah,91,0.66,2,164.4,1,0.81
-18,HZbsLxL7GeM,Dandelions,Ruth B.,91,0.64,2,180.8,1,0.802
-19,zAiIgYOH4Ys,KALYANI (Remix),ARJN,90,0.62,2,180.8,1,0.788
-20,DPaqlPFznBI,A Bar Song (Tipsy),Shaboozey,90,0.6,2,252.8,1,0.78
-21,N7jDUBRVQVA,Tum Ho Toh (Movie: Saiyaara),Vishal Mishra,90,0.58,2,241.0,1,0.772
-22,ChXcD6Z4uvQ,The Only Exception,Paramore,90,0.56,2,202.9,1,0.764
-23,q_rtuBQRQfc,"Uyi Amma (From ""Azaad"")",Amit Trivedi,90,0.54,2,153.4,1,0.756
-24,tOaizzQG8Cw,"Pavazha Malli (From ""Think Indie"")",Sai Abhyankkar,89,0.52,2,153.4,1,0.742
-25,BU5kkhpgLz8,"Deewaniyat (From ""Ek Deewane Ki Deewaniyat"") (Original Motion Picture Soundtrack)",Vishal Mishra,89,0.5,2,176.5,1,0.734
-26,rVqcPUQ2YXI,"Aasa Kooda (From ""Think Indie"")",Sai Abhyankkar,89,0.48,2,248.5,0,0.726
+8,IxJjY5T9yag,The Box,Roddy Ricch,94,0.84,2,166.3,1,0.9
+9,ge4M2dVBgTw,Saiyaara (Movie: Saiyaara),Faheem Abdullah,93,0.82,2,166.3,1,0.886
+10,RG-D4bcg54s,Lush Life,Zara Larsson,93,0.8,2,257.7,1,0.878
+11,n9qQiuwBywU,Humnava Mere,Jubin Nautiyal,93,0.78,2,255.6,1,0.87
+12,UWn9RdueB7E,Gata Only,FloyyMenor,93,0.76,2,246.6,1,0.862
+13,Gayw5AQvWcQ,"Shararat (From ""Dhurandhar"")",Shashwat Sachdev,92,0.74,2,246.6,1,0.848
+14,YALvuUpY_b0,"Apna Bana Le (From ""Bhediya"")",Arijit Singh,92,0.72,2,228.2,1,0.84
+15,aykb9pGfTR4,Copines,Aya Nakamura,92,0.7,2,177.1,1,0.832
+16,eXkHvT--DBU,Zaalima,Arijit Singh,92,0.68,2,164.4,1,0.824
+17,ZqSlV5LmrTg,Snooze,SZA,92,0.66,2,180.8,1,0.816
+18,i1o1p_DD6TU,"Gehra Hua (From ""Dhurandhar"")",Shashwat Sachdev,91,0.64,2,180.8,1,0.802
+19,7nVctvQVz0U,The Fate of Ophelia,Taylor Swift,91,0.62,2,252.8,1,0.794
+20,tNc2coVC2aw,Sahiba,Aditya Rikhari,91,0.6,2,241.0,1,0.786
+21,kbwuCugRFB0,Shaky,Sanju Rathod,91,0.58,2,202.9,1,0.778
+22,HZbsLxL7GeM,Dandelions,Ruth B.,91,0.56,2,153.4,1,0.77
+23,kyqJ_FId-_w,Bairan,Banjaare,90,0.54,2,153.4,1,0.756
+24,zAiIgYOH4Ys,KALYANI (Remix),ARJN,90,0.52,2,176.5,1,0.748
+25,ChXcD6Z4uvQ,The Only Exception,Paramore,90,0.5,2,248.5,1,0.74
+26,tOaizzQG8Cw,"Pavazha Malli (From ""Think Indie"")",Sai Abhyankkar,89,0.48,2,248.5,0,0.726
 27,-BJt4fCAtZE,Arz Kiya Hai | Coke Studio Bharat,Anuv Jain,89,0.46,2,240.3,0,0.718
-28,U9-f4Mosb_A,Sunday Morning,Maroon 5,89,0.44,2,176.4,0,0.71
-29,3zf0cvxd0t0,Abracadabra,Lady Gaga,89,0.42,2,228.2,0,0.702
-30,lbEtG0ZjyJA,"Aaya Sher (From ""The Paradise"") (Telugu)",Anirudh Ravichander,88,0.4,2,228.2,0,0.688
-31,sng0VbBxlJk,"Mutta Kalakki (From ""Youth"")",G. V. Prakash Kumar,88,0.38,2,251.9,0,0.68
-32,7_cLuhd7BPo,Carnívoro,Mc Jacaré,87,0.36,2,251.9,0,0.666
-33,xvT1jH8B9AM,KALYANI (Remix),ARJN,87,0.34,2,206.6,0,0.658
-34,D0fzGl640wE,Jangan Paksa Rindu,Ifan Seventeen,87,0.32,2,159.6,0,0.65
-35,UmBNAt4xMSE,Sesi Potret (feat. Ari Lesmana),eńau,87,0.3,2,206.1,0,0.642
-36,5F28ye50-Kc,Teh Hijau,Tulus,86,0.28,2,206.1,0,0.628
-37,XSTTBVFiObg,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,86,0.26,2,155.8,0,0.62
-38,FpJxPzveHzA,Kalapastangan,fitterkarma,86,0.24,2,255.7,0,0.612
-39,rouojv6Xu8Q,Bahagia Lagi,Piche Kota,86,0.22,2,249.0,0,0.604
-40,SBOwcGnwuKM,Udi Udi,Aneesh,85,0.2,2,249.0,0,0.59
-41,3Eb2LTRoHVQ,Mi Chico (Official - Jason Derulo x Melody),DJ Goja,85,0.18,2,213.0,0,0.582
-42,FYf0PLw0Sqo,Marilag,Dionela,85,0.16,2,154.9,0,0.574
-43,Wzn4BLtE73o,Who Knows,Daniel Caesar,85,0.14,2,253.4,0,0.566
-44,52F9tnKSw4A,Kannukulla,Sai Abhyankkar,84,0.12,2,253.4,0,0.552
-45,lT2oNlGVvMs,80 Lakh (feat. Sweta Chauhan),D Naveen,84,0.1,2,214.5,0,0.544
-46,aiR3MSxIww0,Vaaroon Forever (From “Mirzapur The Movie”),Anand Bhaskar,84,0.08,2,207.2,0,0.536
-47,LuxizOvIbog,the cure,Olivia Rodrigo,84,0.06,2,184.7,0,0.528
-48,iBUnDct2YGw,5-7,Karan Aujla,84,0.04,2,195.4,0,0.52
-49,mhSpdlCXU7M,Kath Lagda,Navaan Sandhu,83,0.02,2,195.4,0,0.506
-50,rC-kbRanJQ0,Udi Udi,Hruday,83,0.0,2,204.3,0,0.498
+28,BU5kkhpgLz8,"Deewaniyat (From ""Ek Deewane Ki Deewaniyat"") (Original Motion Picture Soundtrack)",Vishal Mishra,89,0.44,2,176.4,0,0.71
+29,rVqcPUQ2YXI,"Aasa Kooda (From ""Think Indie"")",Sai Abhyankkar,89,0.42,2,228.2,0,0.702
+30,3Z8vF0Ppwa4,PELIGROSA,FloyyMenor,89,0.4,2,251.9,0,0.694
+31,U9-f4Mosb_A,Sunday Morning,Maroon 5,89,0.38,2,206.6,0,0.686
+32,3zf0cvxd0t0,Abracadabra,Lady Gaga,89,0.36,2,159.6,0,0.678
+33,lbEtG0ZjyJA,"Aaya Sher (From ""The Paradise"") (Telugu)",Anirudh Ravichander,88,0.34,2,159.6,0,0.664
+34,xukbqwRuN5w,Choosin' Texas,Ella Langley,88,0.32,2,206.1,0,0.656
+35,7_cLuhd7BPo,Carnívoro,Mc Jacaré,87,0.3,2,206.1,0,0.642
+36,UmBNAt4xMSE,Sesi Potret (feat. Ari Lesmana),eńau,87,0.28,2,155.8,0,0.634
+37,jZEA2mMwL1k,"Mutta Kalakki (From ""Youth"")",Ken Karunaas,87,0.26,2,255.7,0,0.626
+38,IcLdJ93eP18,"Yeshanagula (From ""The Paradise"") (Telugu)",Anirudh Ravichander,87,0.24,2,249.0,0,0.618
+39,xvT1jH8B9AM,KALYANI (Remix),ARJN,87,0.22,2,213.0,0,0.61
+40,JCcUifiu3UU,Opalite,Taylor Swift,87,0.2,2,154.9,0,0.602
+41,MODbh7nKWmQ,Sedia Aku Sebelum Hujan,Idgitaf,87,0.18,2,253.4,0,0.594
+42,D0fzGl640wE,Jangan Paksa Rindu,Ifan Seventeen,87,0.16,2,214.5,0,0.586
+43,0zmIgxfZz0M,Boom Shaka,KR$NA,86,0.14,2,214.5,0,0.572
+44,5F28ye50-Kc,Teh Hijau,Tulus,86,0.12,2,207.2,0,0.564
+45,XSTTBVFiObg,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,86,0.1,2,184.7,0,0.556
+46,4-LSGXUR6Tg,Bangles,Sanju Rathod,86,0.08,2,195.4,0,0.548
+47,3F9jlnANW08,BAD,ATEEZ,86,0.06,2,204.3,0,0.54
+48,sjtyqmA-pH4,Catch Catch,YENA,86,0.04,2,203.3,0,0.532
+49,rouojv6Xu8Q,Bahagia Lagi,Piche Kota,86,0.02,2,223.6,0,0.524
+50,Aze7zTyIRtk,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,86,0.0,2,213.3,0,0.516
