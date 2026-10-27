@@ -1,50 +1,68 @@
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
+import os
+import sys
 import pandas as pd
+from ytmusicapi import YTMusic
 
-CLIENT_ID        = "f378884933fd40419ed4ceb4183187fa"
-CLIENT_SECRET    = "0fe835117c40467f87b7fa6f168d56dc"
-REDIRECT_URI     = "http://127.0.0.1:8888/callback"
-YOUR_PLAYLIST_ID = "6d2IqN9qIankzqBAx0qpXb"
-SCOPE            = "playlist-modify-public"
+YOUR_PLAYLIST_ID = os.getenv("YT_PLAYLIST_ID", "PLQZ2bR5J0yDY")
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id=CLIENT_ID,
-    client_secret=CLIENT_SECRET,
-    redirect_uri=REDIRECT_URI,
-    scope=SCOPE,
-    cache_path=".cache"
-))
+if not os.path.exists('browser.json'):
+    print("⚠️  browser.json not found. Please run yt_auth.py first or provide browser.json.")
+    sys.exit(1)
 
-user = sp.current_user()
-print(f"✅ Connected as: {user['display_name']}\n")
+yt = YTMusic('browser.json')
+print("✅ Connected to YouTube Music\n")
 
-# Load decisions
+if not os.path.exists('decisions.csv'):
+    print("⚠️  decisions.csv not found.")
+    sys.exit(1)
+
 decisions = pd.read_csv('decisions.csv')
-to_add    = decisions[decisions['action'] == 'ADD']['track_id'].tolist()
-to_remove = decisions[decisions['action'] == 'REMOVE']['track_id'].tolist()
+to_add_rows = decisions[decisions['action'] == 'ADD']
+to_remove_rows = decisions[decisions['action'] == 'REMOVE']
+
+to_add = to_add_rows['track_id'].tolist()
+to_remove = to_remove_rows['track_id'].tolist()
 
 print(f"➕ Songs to add:    {len(to_add)}")
 print(f"➖ Songs to remove: {len(to_remove)}\n")
 
-# ADD songs
-if to_add:
-    sp.playlist_add_items(YOUR_PLAYLIST_ID, to_add)
-    print("✅ Songs added to playlist!")
-    for tid in to_add:
-        row = decisions[decisions['track_id'] == tid].iloc[0]
-        print(f"  + {row['track_name']} — {row['artist']}")
-else:
-    print("ℹ️  No songs to add.")
-
 # REMOVE songs
 if to_remove:
-    sp.playlist_remove_all_occurrences_of_items(YOUR_PLAYLIST_ID, to_remove)
-    print("\n✅ Songs removed from playlist!")
-    for tid in to_remove:
-        row = decisions[decisions['track_id'] == tid].iloc[0]
-        print(f"  - {row['track_name']} — {row['artist']}")
+    print("🗑️  Removing songs from playlist...")
+    try:
+        playlist = yt.get_playlist(YOUR_PLAYLIST_ID)
+        items_to_remove = []
+        for track in playlist.get('tracks', []):
+            if track.get('videoId') in to_remove and track.get('setVideoId'):
+                items_to_remove.append({
+                    'videoId': track['videoId'],
+                    'setVideoId': track['setVideoId']
+                })
+        if items_to_remove:
+            yt.remove_playlist_items(YOUR_PLAYLIST_ID, items_to_remove)
+            print(f"✅ Removed {len(items_to_remove)} tracks from playlist!")
+            for tid in to_remove:
+                match = decisions[decisions['track_id'] == tid]
+                if not match.empty:
+                    print(f"  - {match.iloc[0]['track_name']} — {match.iloc[0]['artist']}")
+    except Exception as e:
+        print(f"⚠️  Error removing songs: {e}")
 else:
     print("ℹ️  No songs to remove.")
 
-print("\n🎉 Playlist updated successfully!")
+# ADD songs
+if to_add:
+    print("\n➕ Adding songs to playlist...")
+    try:
+        yt.add_playlist_items(YOUR_PLAYLIST_ID, to_add, duplicates=False)
+        print("✅ Songs added to playlist!")
+        for tid in to_add:
+            match = decisions[decisions['track_id'] == tid]
+            if not match.empty:
+                print(f"  + {match.iloc[0]['track_name']} — {match.iloc[0]['artist']}")
+    except Exception as e:
+        print(f"⚠️  Error adding songs: {e}")
+else:
+    print("ℹ️  No songs to add.")
+
+print("\n🎉 YouTube Music playlist updated successfully!")

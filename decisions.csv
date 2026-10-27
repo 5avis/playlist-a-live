@@ -1,17 +1,19 @@
-track_id,track_name,artist,cluster,popularity,action
-4HTNf7HP0VCxrcxWtanJx7,Top Lesi Poddi,Sagar,0,0,ADD
-2iphEAAh75lgFRk1DnPJqT,O Meri Laila,Atif Aslam,0,0,ADD
-5nEmHo7MLWWfiE3LR6XP8S,Nazm Nazm,Arko,0,0,ADD
-5Ep05G7ftDi1HGDIRpSJkl,"Thutthoori Talavarayya (From ""Bullet Basya"")",Vijay Prakash,0,0,ADD
-0MVYXqibsoolBNFnmMdVdX,Top Flame,JERRY,0,0,ADD
-4ZGFSbeCUDk1sAn0pKeo3c,Mayday,Plutoopia,0,0,ADD
-58BJ5oUPX5ST2pjCtOSMkk,"Money Calling (feat. RAYE, Russ Millions & wewantwraiths)",Da Beatfreakz,0,0,ADD
-5SrkQS5T1ZWO5U4lw7jFOV,First Quarter 2.0,W1ZZY,0,0,ADD
-0eLtIxPRNJfsmehITZ1qaJ,Sahiba,Aditya Rikhari,0,0,ADD
-6aMoxZbGxqRkyNKAlkzIpP,Panwadi - Best Wedding Dance Song 2026,Khesari Lal Yadav,0,0,ADD
-4JgB6JEI7TM9lapSRF6pnL,O Mere Khuda,Atif Aslam,0,0,ADD
-5thVzD79BxlDTYy0LfHzvu,Zaroor,Aparshakti Khurana,0,0,ADD
-4PnHmtZRPQfob9G1YsfmOP,Not Mad Anymore,Ashe,0,0,ADD
-6vxRgGgONFHHBQyIZsGy9p,Best Yaar,Jass Bajwa,0,0,ADD
-3A3oq3VMSboPPWBYTRq0nX,Dil Lagana Mana Tha,Krish Mondal,0,0,ADD
-4cVgfaHzVDu3srYfJEP0AN,"Raga of Revenge (From ""DC"")",Anirudh Ravichander,0,0,ADD
+action,track_id,track_name,artist,cluster,popularity
+REMOVE,q1uPPBJ2tcI,Phir Bhi Tumko Chaahunga,Mithoon,-,80
+ADD,GqWYJT-iMTw,Baby (feat. Ludacris),Justin Bieber,0,97
+ADD,BkSSOGNeWTM,Flowers,Miley Cyrus,0,94
+ADD,kIft-LUHHVA,Espresso,Sabrina Carpenter,0,93
+ADD,Gayw5AQvWcQ,"Shararat (From ""Dhurandhar"")",Shashwat Sachdev,0,92
+ADD,YALvuUpY_b0,"Apna Bana Le (From ""Bhediya"")",Arijit Singh,0,92
+ADD,eXkHvT--DBU,Zaalima,Arijit Singh,0,92
+ADD,i1o1p_DD6TU,"Gehra Hua (From ""Dhurandhar"")",Shashwat Sachdev,0,91
+ADD,kbwuCugRFB0,Shaky,Sanju Rathod,0,91
+ADD,f419vqAt8PU,"Ishq (From ""Lost;Found"")",Faheem Abdullah,0,91
+ADD,HZbsLxL7GeM,Dandelions,Ruth B.,0,91
+ADD,zAiIgYOH4Ys,KALYANI (Remix),ARJN,0,90
+ADD,DPaqlPFznBI,A Bar Song (Tipsy),Shaboozey,0,90
+ADD,N7jDUBRVQVA,Tum Ho Toh (Movie: Saiyaara),Vishal Mishra,0,90
+ADD,ChXcD6Z4uvQ,The Only Exception,Paramore,0,90
+ADD,q_rtuBQRQfc,"Uyi Amma (From ""Azaad"")",Amit Trivedi,0,90
+ADD,tOaizzQG8Cw,"Pavazha Malli (From ""Think Indie"")",Sai Abhyankkar,0,89
+ADD,BU5kkhpgLz8,"Deewaniyat (From ""Ek Deewane Ki Deewaniyat"") (Original Motion Picture Soundtrack)",Vishal Mishra,0,89

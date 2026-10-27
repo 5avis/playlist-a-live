@@ -1,7 +1,7 @@
 import subprocess
 import sys
 
-print("🚀 PLAYLIVE Pipeline Starting...\n")
+print("🚀 PLAYLIVE Pipeline Starting (YouTube Music)...\n")
 
 scripts = [
     ("Stage 4 — Fetch Trending",   "fetch_trending.py"),
@@ -9,6 +9,7 @@ scripts = [
     ("Stage 6 — Clustering",       "clustering.py"),
     ("Stage 7 — Decisions",        "decision.py"),
     ("Stage 8 — Update Playlist",  "update_playlist.py"),
+    ("Stage 9 — Activity Log",     "activity_log.py"),
 ]
 
 for stage_name, script in scripts:
@@ -17,6 +18,7 @@ for stage_name, script in scripts:
     if result.returncode != 0:
         print(f"❌ {stage_name} failed!")
         print(result.stderr)
+        print(result.stdout)
         sys.exit(1)
     else:
         print(f"✅ {stage_name} done!\n")
