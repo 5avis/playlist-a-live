@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
@@ -6,72 +7,72 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
-# Load features
 print("📋 Loading tracks_with_features.csv...\n")
 df = pd.read_csv('tracks_with_features.csv')
-print(f"✅ Loaded {len(df)} tracks\n")
+print(f"✅ Loaded {len(df)} candidate tracks\n")
 
-# Features to cluster on
-features = ['popularity', 'rank_score', 'popularity_tier', 
-            'duration_sec', 'explicit', 'trend_score']
-
+features = ['popularity', 'rank_score', 'popularity_tier', 'duration_score', 'trend_score']
 X = df[features]
 
-# Scale the features
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# ── Elbow Method (find best K) ──────────────────────────────
-print("📊 Running elbow method to find best K...\n")
-inertias = []
-K_range = range(2, 9)
-
-for k in K_range:
-    km = KMeans(n_clusters=k, random_state=42, n_init=10)
-    km.fit(X_scaled)
-    inertias.append(km.inertia_)
-
-# Plot elbow curve
-plt.figure(figsize=(8, 4))
-plt.plot(list(K_range), inertias, 'bo-')
-plt.xlabel('Number of Clusters (K)')
-plt.ylabel('Inertia')
-plt.title('Elbow Method — Find Best K')
-plt.savefig('elbow_curve.png')
-print("✅ Elbow curve saved as elbow_curve.png\n")
-
-# ── Silhouette Score (evaluate best K) ──────────────────────
-print("📊 Running silhouette scores...\n")
-best_k = 2
+# ── Dynamic K Optimization (Silhouette + Inertia) ────────────────
+print("📊 Evaluating cluster cohesion across K=3 to 6...\n")
+K_range = range(3, min(7, len(df)))
+best_k = 3
 best_score = -1
+inertias = []
 
 for k in K_range:
     km = KMeans(n_clusters=k, random_state=42, n_init=10)
     labels = km.fit_predict(X_scaled)
     score = silhouette_score(X_scaled, labels)
+    inertias.append(km.inertia_)
     print(f"  K={k} → Silhouette Score: {round(score, 4)}")
     if score > best_score:
         best_score = score
         best_k = k
 
-print(f"\n✅ Best K = {best_k} (Silhouette Score: {round(best_score, 4)})\n")
+# Save Elbow Plot
+plt.figure(figsize=(7, 3.5))
+plt.plot(list(K_range), inertias, 'ro-')
+plt.xlabel('Number of Clusters (K)')
+plt.ylabel('Inertia')
+plt.title(f'Cluster Optimization (Best K={best_k}, Silhouette={round(best_score, 3)})')
+plt.tight_layout()
+plt.savefig('elbow_curve.png')
+print(f"\n✅ Optimal K = {best_k} (Silhouette Score: {round(best_score, 4)})\n")
 
-# ── Final Clustering with Best K ────────────────────────────
-print(f"🤖 Running final K-Means with K={best_k}...\n")
+# ── Final KMeans Fit ─────────────────────────────────────────────
 final_km = KMeans(n_clusters=best_k, random_state=42, n_init=10)
 df['cluster'] = final_km.fit_predict(X_scaled)
 
-# Show cluster breakdown
-print("📊 Cluster breakdown:\n")
-for c in range(best_k):
-    cluster_df = df[df['cluster'] == c]
-    avg_pop = round(cluster_df['popularity'].mean(), 1)
-    print(f"  Cluster {c}: {len(cluster_df)} songs | Avg Popularity: {avg_pop}")
-    for _, row in cluster_df.iterrows():
-        print(f"    - {row['track_name']} ({row['artist']})")
-    print()
+# ── Cluster Quality Scoring ──────────────────────────────────────
+# Rank clusters by composite quality (average trend_score & popularity)
+cluster_scores = df.groupby('cluster').agg({
+    'trend_score': 'mean',
+    'popularity': 'mean',
+    'track_id': 'count'
+}).rename(columns={'track_id': 'count'})
+
+cluster_scores['cluster_rank'] = cluster_scores['trend_score'].rank(ascending=False, method='min').astype(int)
+print("📊 Cluster Rankings:")
+for c_id, row in cluster_scores.iterrows():
+    print(f"  Cluster {c_id}: {int(row['count'])} tracks | Avg Pop: {round(row['popularity'], 1)} | Rank: #{int(row['cluster_rank'])}")
+
+# Map cluster rank back to dataframe
+cluster_rank_map = cluster_scores['cluster_rank'].to_dict()
+df['cluster_rank'] = df['cluster'].map(cluster_rank_map)
+
+# Compute final composite score: 85% individual trend score + 15% cluster tier bonus
+max_rank = best_k
+df['composite_score'] = round(df['trend_score'] * 0.85 + ((max_rank - df['cluster_rank'] + 1) / max_rank * 0.15), 4)
+
+# Sort globally by composite score
+df = df.sort_values(by='composite_score', ascending=False).reset_index(drop=True)
+df['final_rank'] = df.index + 1
 
 # Save clustered CSV
 df.to_csv('tracks_clustered.csv', index=False)
-print("✅ Saved to tracks_clustered.csv")
-print(f"✅ Silhouette Score: {round(best_score, 4)} (closer to 1.0 = better clustering)")
+print("\n✅ Saved ranked tracks to tracks_clustered.csv")

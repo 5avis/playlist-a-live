@@ -1,51 +1,129 @@
-rank,track_id,track_name,artist,popularity,duration_sec,explicit
-1,xTvyyoF_LZY,Shape of You,Ed Sheeran,99,234,0
-2,rJ0D1GbDq1Q,Let Me Love You (feat. Justin Bieber),DJ Snake,97,206,0
-3,J7p4bzqLvCw,Blinding Lights,The Weeknd,96,202,0
-4,3_g2un5M350,Starboy (feat. Daft Punk),The Weeknd,96,231,1
-5,FrsOnNxIrg8,God's Plan,Drake,95,199,1
-6,aWkPBCF8rFU,Beauty And A Beat (feat. Nicki Minaj),Justin Bieber,94,228,0
-7,BkSSOGNeWTM,Flowers,Miley Cyrus,94,201,0
-8,IxJjY5T9yag,The Box,Roddy Ricch,94,197,1
-9,ge4M2dVBgTw,Saiyaara (Movie: Saiyaara),Faheem Abdullah,93,371,0
-10,RG-D4bcg54s,Lush Life,Zara Larsson,93,202,0
-11,n9qQiuwBywU,Humnava Mere,Jubin Nautiyal,93,329,0
-12,UWn9RdueB7E,Gata Only,FloyyMenor,93,222,1
-13,Gayw5AQvWcQ,"Shararat (From ""Dhurandhar"")",Shashwat Sachdev,92,225,0
-14,YALvuUpY_b0,"Apna Bana Le (From ""Bhediya"")",Arijit Singh,92,262,0
-15,aykb9pGfTR4,Copines,Aya Nakamura,92,172,0
-16,eXkHvT--DBU,Zaalima,Arijit Singh,92,300,0
-17,ZqSlV5LmrTg,Snooze,SZA,92,202,1
-18,i1o1p_DD6TU,"Gehra Hua (From ""Dhurandhar"")",Shashwat Sachdev,91,363,0
-19,7nVctvQVz0U,The Fate of Ophelia,Taylor Swift,91,227,0
-20,tNc2coVC2aw,Sahiba,Aditya Rikhari,91,191,0
-21,kbwuCugRFB0,Shaky,Sanju Rathod,91,176,0
-22,HZbsLxL7GeM,Dandelions,Ruth B.,91,234,0
-23,kyqJ_FId-_w,Bairan,Banjaare,90,151,0
-24,zAiIgYOH4Ys,KALYANI (Remix),ARJN,90,270,0
-25,ChXcD6Z4uvQ,The Only Exception,Paramore,90,268,0
-26,tOaizzQG8Cw,"Pavazha Malli (From ""Think Indie"")",Sai Abhyankkar,89,253,0
-27,-BJt4fCAtZE,Arz Kiya Hai | Coke Studio Bharat,Anuv Jain,89,295,0
-28,BU5kkhpgLz8,"Deewaniyat (From ""Ek Deewane Ki Deewaniyat"") (Original Motion Picture Soundtrack)",Vishal Mishra,89,258,0
-29,rVqcPUQ2YXI,"Aasa Kooda (From ""Think Indie"")",Sai Abhyankkar,89,216,0
-30,3Z8vF0Ppwa4,PELIGROSA,FloyyMenor,89,135,1
-31,U9-f4Mosb_A,Sunday Morning,Maroon 5,89,245,0
-32,3zf0cvxd0t0,Abracadabra,Lady Gaga,89,224,0
-33,lbEtG0ZjyJA,"Aaya Sher (From ""The Paradise"") (Telugu)",Anirudh Ravichander,88,287,0
-34,xukbqwRuN5w,Choosin' Texas,Ella Langley,88,232,0
-35,7_cLuhd7BPo,Carnívoro,Mc Jacaré,87,216,1
-36,UmBNAt4xMSE,Sesi Potret (feat. Ari Lesmana),eńau,87,243,0
-37,jZEA2mMwL1k,"Mutta Kalakki (From ""Youth"")",Ken Karunaas,87,170,0
-38,IcLdJ93eP18,"Yeshanagula (From ""The Paradise"") (Telugu)",Anirudh Ravichander,87,189,0
-39,xvT1jH8B9AM,KALYANI (Remix),ARJN,87,288,0
-40,JCcUifiu3UU,Opalite,Taylor Swift,87,236,0
-41,MODbh7nKWmQ,Sedia Aku Sebelum Hujan,Idgitaf,87,231,0
-42,D0fzGl640wE,Jangan Paksa Rindu,Ifan Seventeen,87,246,0
-43,0zmIgxfZz0M,Boom Shaka,KR$NA,86,219,1
-44,5F28ye50-Kc,Teh Hijau,Tulus,86,213,0
-45,XSTTBVFiObg,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,86,130,0
-46,4-LSGXUR6Tg,Bangles,Sanju Rathod,86,212,0
-47,3F9jlnANW08,BAD,ATEEZ,86,157,0
-48,sjtyqmA-pH4,Catch Catch,YENA,86,180,0
-49,rouojv6Xu8Q,Bahagia Lagi,Piche Kota,86,228,0
-50,Aze7zTyIRtk,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,86,141,0
+rank,track_id,track_name,artist,clean_key,popularity,duration_sec,explicit,in_playlist
+1,xTvyyoF_LZY,Shape of You,Ed Sheeran,shape of you---ed sheeran,99,234,0,1
+2,v16qZcBllUU,Sorry,Justin Bieber,sorry---justin bieber,97,201,0,0
+3,J7p4bzqLvCw,Blinding Lights,The Weeknd,blinding lights---the weeknd,96,202,0,1
+4,3_g2un5M350,Starboy (feat. Daft Punk),The Weeknd,starboy---the weeknd,96,231,0,1
+5,cfhwSpSDA9c,Unstoppable,Sia,unstoppable---sia,95,218,0,1
+6,FrsOnNxIrg8,God's Plan,Drake,gods plan---drake,95,199,1,0
+7,aWkPBCF8rFU,Beauty And A Beat (feat. Nicki Minaj),Justin Bieber,beauty and a beat---justin bieber,94,228,0,1
+8,BkSSOGNeWTM,Flowers,Miley Cyrus,flowers---miley cyrus,94,201,0,1
+9,IxJjY5T9yag,The Box,Roddy Ricch,the box---roddy ricch,94,197,1,0
+10,ge4M2dVBgTw,Saiyaara (Movie: Saiyaara),Faheem Abdullah,saiyaara---faheem abdullah,93,371,0,1
+11,RG-D4bcg54s,Lush Life,Zara Larsson,lush life---zara larsson,93,202,0,1
+12,n9qQiuwBywU,Humnava Mere,Jubin Nautiyal,humnava mere---jubin nautiyal,93,329,0,1
+13,kIft-LUHHVA,Espresso,Sabrina Carpenter,espresso---sabrina carpenter,93,176,0,1
+14,Gayw5AQvWcQ,"Shararat (From ""Dhurandhar"")",Shashwat Sachdev,shararat---shashwat sachdev,92,225,0,1
+15,YALvuUpY_b0,"Apna Bana Le (From ""Bhediya"")",Arijit Singh,apna bana le---arijit singh,92,262,0,1
+16,eXkHvT--DBU,Zaalima,Arijit Singh,zaalima---arijit singh,92,300,0,1
+17,aykb9pGfTR4,Copines,Aya Nakamura,copines---aya nakamura,92,172,0,0
+18,ZqSlV5LmrTg,Snooze,SZA,snooze---sza,92,202,1,0
+19,i1o1p_DD6TU,"Gehra Hua (From ""Dhurandhar"")",Shashwat Sachdev,gehra hua---shashwat sachdev,91,363,0,1
+20,kbwuCugRFB0,Shaky,Sanju Rathod,shaky---sanju rathod,91,176,0,1
+21,f419vqAt8PU,"Ishq (From ""Lost;Found"")",Faheem Abdullah,ishq---faheem abdullah,91,229,0,1
+22,HZbsLxL7GeM,Dandelions,Ruth B.,dandelions---ruth b,91,234,0,1
+23,tNc2coVC2aw,Sahiba,Aditya Rikhari,sahiba---aditya rikhari,91,191,0,0
+24,zAiIgYOH4Ys,KALYANI (Remix),ARJN,kalyani---arjn,90,270,0,1
+25,DPaqlPFznBI,A Bar Song (Tipsy),Shaboozey,a bar song---shaboozey,90,172,0,1
+26,N7jDUBRVQVA,Tum Ho Toh (Movie: Saiyaara),Vishal Mishra,tum ho toh---vishal mishra,90,319,0,1
+27,ChXcD6Z4uvQ,The Only Exception,Paramore,the only exception---paramore,90,268,0,1
+28,tOaizzQG8Cw,"Pavazha Malli (From ""Think Indie"")",Sai Abhyankkar,pavazha malli---sai abhyankkar,89,253,0,1
+29,BU5kkhpgLz8,"Deewaniyat (From ""Ek Deewane Ki Deewaniyat"") (Original Motion Picture Soundtrack)",Vishal Mishra,deewaniyat---vishal mishra,89,258,0,1
+30,rVqcPUQ2YXI,"Aasa Kooda (From ""Think Indie"")",Sai Abhyankkar,aasa kooda---sai abhyankkar,89,216,0,0
+31,U9-f4Mosb_A,Sunday Morning,Maroon 5,sunday morning---maroon 5,89,245,0,0
+32,3zf0cvxd0t0,Abracadabra,Lady Gaga,abracadabra---lady gaga,89,224,0,0
+33,7_cLuhd7BPo,Carnívoro,Mc Jacaré,carnvoro---mc jacar,87,216,1,0
+34,jZEA2mMwL1k,"Mutta Kalakki (From ""Youth"")",Ken Karunaas,mutta kalakki---ken karunaas,87,170,0,0
+35,D0fzGl640wE,Jangan Paksa Rindu,Ifan Seventeen,jangan paksa rindu---ifan seventeen,87,246,0,0
+36,UmBNAt4xMSE,Sesi Potret (feat. Ari Lesmana),eńau,sesi potret---eau,87,243,0,0
+37,XSTTBVFiObg,"Aura 10/10 (From ""Meesaya Murukku 2"")",Hiphop Tamizha,aura 1010---hiphop tamizha,86,130,0,0
+38,5F28ye50-Kc,Teh Hijau,Tulus,teh hijau---tulus,86,213,0,0
+39,4-LSGXUR6Tg,Bangles,Sanju Rathod,bangles---sanju rathod,86,212,0,0
+40,FpJxPzveHzA,Kalapastangan,fitterkarma,kalapastangan---fitterkarma,86,276,0,0
+41,rouojv6Xu8Q,Bahagia Lagi,Piche Kota,bahagia lagi---piche kota,86,228,0,0
+42,MQUiJQkWVbk,Not Guilty,Dhanda Nyoliwala,not guilty---dhanda nyoliwala,86,176,0,0
+43,GqWYJT-iMTw,Baby (feat. Ludacris),Justin Bieber,baby---justin bieber,85,215,0,1
+44,q_rtuBQRQfc,"Uyi Amma (From ""Azaad"")",Amit Trivedi,uyi amma---amit trivedi,85,254,0,1
+45,SBOwcGnwuKM,Udi Udi,Aneesh,udi udi---aneesh,85,162,0,0
+46,qemjcgBJMCE,"God Mode (From ""Karuppu"")",Sai Abhyankkar,god mode---sai abhyankkar,85,241,0,0
+47,3Eb2LTRoHVQ,Mi Chico (Official - Jason Derulo x Melody),DJ Goja,mi chico---dj goja,85,126,0,0
+48,FYf0PLw0Sqo,Marilag,Dionela,marilag---dionela,85,158,0,0
+49,Wzn4BLtE73o,Who Knows,Daniel Caesar,who knows---daniel caesar,85,227,0,0
+50,cL0KKSPjZf8,Boom Shaka,Krsna,boom shaka---krsna,85,219,0,0
+51,BmRX2g6-iQI,"Radhimaa [From ""Think Indie""] (feat. Sai Smriti)",Sai Abhyankkar,radhimaa---sai abhyankkar,84,260,0,0
+52,lT2oNlGVvMs,80 Lakh (feat. Sweta Chauhan),D Naveen,80 lakh---d naveen,84,140,0,0
+53,aiR3MSxIww0,Vaaroon Forever (From “Mirzapur The Movie”),Anand Bhaskar,vaaroon forever---anand bhaskar,84,253,0,0
+54,LuxizOvIbog,the cure,Olivia Rodrigo,the cure---olivia rodrigo,84,298,0,0
+55,iBUnDct2YGw,5-7,Karan Aujla,57---karan aujla,84,155,0,0
+56,mhSpdlCXU7M,Kath Lagda,Navaan Sandhu,kath lagda---navaan sandhu,83,312,0,0
+57,NAkQVL61BRI,"Raga of Revenge (From ""DC"")",Anirudh Ravichander,raga of revenge---anirudh ravichander,83,132,0,0
+58,JjJOlPQ2bo0,Dealer,DILJIT DOSANJH,dealer---diljit dosanjh,83,111,0,0
+59,V4aDJ4kiSNw,Amsham - അംശം,Aksomaniac,amsham---aksomaniac,82,282,0,0
+60,3igIAOJlJ2s,"Asalayavale (From ""Khalifa"")",Jakes Bejoy,asalayavale---jakes bejoy,82,302,0,0
+61,sdXPt-lgbE0,Chamiki,Bhaskarabhatla,chamiki---bhaskarabhatla,82,170,0,0
+62,zfWlGsiFDzk,Safar,Bayaan,safar---bayaan,82,217,0,0
+63,n5Mo9hC9d_Y,Astaga Bercanda,Akbar Chalay,astaga bercanda---akbar chalay,82,167,0,0
+64,8qNUnJlUOJA,Guzarish,Satinder Sartaaj,guzarish---satinder sartaaj,82,289,0,0
+65,wy7_PFy-ztQ,Like a Prayer,Josh Fawaz,like a prayer---josh fawaz,82,131,0,0
+66,jaPGexY1l5A,BOO,H3adband,boo---h3adband,82,139,1,0
+67,JlfnEms4vRI,Ran To Atlanta,Drake,ran to atlanta---drake,81,248,1,0
+68,Lwrkid2LBHE,"Bum Baa Diga Diga (From ""DC"")",Anirudh Ravichander,bum baa diga diga---anirudh ravichander,81,206,0,0
+69,zwnp3aqz9nc,"Aasa Pulla (From ""Youth"")",G. V. Prakash Kumar,aasa pulla---g v prakash kumar,81,152,0,0
+70,jifBuWCqGJ8,Pesamale,Siri Xander,pesamale---siri xander,81,179,0,0
+71,YMUsAAwd8GA,Summer Crush,HELLMERRY,summer crush---hellmerry,81,195,0,0
+72,r_SFe3yWv8w,Banger,Badshah,banger---badshah,81,159,0,0
+73,g5CJBY6bt4c,Ada Bommale,Rzee,ada bommale---rzee,81,181,0,0
+74,JiNxvNtlBPM,Body,Don Toliver,body---don toliver,81,156,1,0
+75,-YNNQ_-G_hE,Plot Twist,Drake,plot twist---drake,81,196,1,0
+76,nSI2N3NtdmI,God’s Favorite (feat. Sultaan),Jordan Sandhu,gods favorite---jordan sandhu,81,175,0,0
+77,me4lu_vyfbg,"Adaavadi (From ""Love Insurance Kompany"")",Anirudh Ravichander,adaavadi---anirudh ravichander,81,195,0,0
+78,_ofFkIYi00Q,Tujhko (From “Cocktail 2”),Pritam,tujhko---pritam,80,343,0,0
+79,BVO-qMos5jY,WA WA WA FUNK,ZAYLO,wa wa wa funk---zaylo,80,97,0,0
+80,y9bfSmGdBTg,Coffee,Amrinder Gill,coffee---amrinder gill,80,165,0,0
+81,Fqg1QYrD7ZA,"Magale (From ""Baththa"")",Sai Abhyankkar,magale---sai abhyankkar,80,258,0,0
+82,zKSaL0bJJvc,Secondhand (feat. Rema),Don Toliver,secondhand---don toliver,80,227,1,0
+83,B6ppp6WBCKg,"Hangova (From ""DC"")",Anirudh Ravichander,hangova---anirudh ravichander,79,248,0,0
+84,RTT1C6EIFXE,Gratitude,Asake,gratitude---asake,79,170,0,0
+85,AMk786WeXDE,Be By You,Luke Combs,be by you---luke combs,79,198,0,0
+86,ljuEhK7eMEI,"Thangame Thangame (From ""Idhayam Murali"")",Thaman S,thangame thangame---thaman s,79,304,0,0
+87,GTDJcvAcQAw,Rathinamo (Female Version),Saurav Srisan,rathinamo---saurav srisan,79,178,0,0
+88,QiZNj5JVf_M,Me Hitha Sanasa,Uvindu Ayshcharya,me hitha sanasa---uvindu ayshcharya,79,216,0,0
+89,dsOGH_ZBdCM,"Masa ini, Nanti, dan Masa Indah Lainnya",Nuca,masa ini nanti dan masa indah lainnya---nuca,79,276,0,0
+90,IrOTmo_OTUo,B’s On The Table,Drake,bs on the table---drake,79,138,1,0
+91,jElm5_L49Lw,Sengithole Omunye (Remix ) (feat. Chulumanco M),Feza,sengithole omunye---feza,78,259,0,0
+92,Y8D_5xThO2I,Mathara,Jakes Bejoy,mathara---jakes bejoy,78,253,0,0
+93,mIQvQMidELc,MONTAGEM URANIUM (Ultra Slowed),ZAYLO,montagem uranium---zaylo,78,126,0,0
+94,YPPXIxOCAoU,Kilometer (feat. PRIYA),R Nait,kilometer---r nait,78,283,0,0
+95,rPmZucO77sg,Ama hem hem (feat. ShaunMusiq),Thatohatsi,ama hem hem---thatohatsi,78,451,0,0
+96,UUkcFbDM0aw,I’m Spent,Drake,im spent---drake,78,145,1,0
+97,6yUjcSTv_C4,Refugee,Jordan Sandhu,refugee---jordan sandhu,77,149,0,0
+98,HaSuADL62l0,Built Different,Saabi Bhinder,built different---saabi bhinder,77,197,0,0
+99,KFcZLiCJGyU,So Good (feat. Kendrick Lamar),Jhené Aiko,so good---jhen aiko,76,238,1,0
+100,IW6ct9S4MYc,Aane Wala Star,Sai Abhyankkar,aane wala star---sai abhyankkar,76,133,0,0
+101,z5UNdiSugjE,Usungikhombisile,Nkeshemba,usungikhombisile---nkeshemba,76,268,0,0
+102,q2oxK0bsoKs,"Vibe Venuma (From ""Meesaya Murukku 2"")",Hiphop Tamizha,vibe venuma---hiphop tamizha,76,155,0,0
+103,o-TTwijwArY,Love Mashup (feat. Atif Aslam & Jyotica Tangri),Shekhar Ravjiani,love mashup---shekhar ravjiani,75,241,0,0
+104,BXovOxEyDR4,Mzala (feat. Tango Supreme),Shakes & Les,mzala---shakes les,74,472,0,0
+105,0gk47dNVxjg,JALLA,Antigoni,jalla---antigoni,74,180,0,0
+106,OGO1XPi8CJg,Punchiri,Eechuu,punchiri---eechuu,74,164,0,0
+107,Q2U8Qk80-Es,Wewe,King Saha,wewe---king saha,74,178,0,0
+108,FXIvaktRqZg,Reckless (feat. Static Major),Nipsey Hussle,reckless---nipsey hussle,74,139,1,0
+109,dew3ywKddTQ,Lekunye,Original_sedi,lekunye---originalsedi,73,273,0,0
+110,bu_rQAeHILY,Mogatsaka,Nkosazana Daughter,mogatsaka---nkosazana daughter,73,336,0,0
+111,jqIWcQdxx08,Gone Kanje (feat. Mellow & Sleazy & Dlala Regal),Scotts Maphuma,gone kanje---scotts maphuma,73,382,0,0
+112,OC029SJ1vBc,Signature,KiDi,signature---kidi,73,163,1,0
+113,PhK25oymhPw,Isulumane,We Dem Boyz,isulumane---we dem boyz,72,282,0,0
+114,HAiPFDkJbsw,MGA MATANG MAPANGHUSGA (( Island Vibes Version )),VincH Music,mga matang mapanghusga---vinch music,72,263,0,0
+115,vX5c5a5fFoU,"Tiger Siva (From ""Meesaya Murukku 2"")",Hiphop Tamizha,tiger siva---hiphop tamizha,72,138,0,0
+116,SfARAbLJjoA,Neighborhood Starz,Rylo Rodriguez,neighborhood starz---rylo rodriguez,71,256,1,0
+117,YuLYDsn-_58,Simi Kanje (feat. Focalistic & Mas Musiq),Daliwonga,simi kanje---daliwonga,71,335,0,0
+118,AjpRd_teDVo,DADDY,Da Agent Official,daddy---da agent official,70,171,0,0
+119,77RsALy3y4E,Finally,Spice Diana,finally---spice diana,70,172,0,0
+120,Rvyh0QA3VPo,Zvaunoda (feat. sane.wav),Learn Zimbabwe,zvaunoda---learn zimbabwe,69,159,0,0
+121,vZSvHCOGL3k,Hollywood,Dulla,hollywood---dulla,67,210,0,0
+122,UVxpPMVEl9w,MIC CHECK,DaBaby,mic check---dababy,65,179,1,0
+123,irqM1bg1BXE,NABHANNU KOISITA - PANCHE BAJA SONG 2026,Samikshya Adhikari,nabhannu koisita panche baja song 2026---samikshya adhikari,64,389,0,0
+124,h8kqWRGz4q4,SECRET IS OUT (Remix),Emtee,secret is out---emtee,60,253,1,0
+125,NSP_kEaHjNk,Burning All Night Trending Pop Hits 2026,Luy Sokmean,burning all night trending pop hits 2026---luy sokmean,52,290,0,0
+126,4qLaHVIT9nQ,Lights On Fire Best Pop Hits 2026 Compilation,Luy Sokmean,lights on fire best pop hits 2026 compilation---luy sokmean,52,323,0,0
+127,2kGf3xJoU-E,"Fire in the Night, Ultimate Pop Hits 2026 Collection",Luy Sokmean,fire in the night ultimate pop hits 2026 collection---luy sokmean,52,327,0,0
+128,Tp2PtezEdL4,Lights On Fire Global Pop Hits 2026 Trending,Luy Sokmean,lights on fire global pop hits 2026 trending---luy sokmean,52,303,0,0
